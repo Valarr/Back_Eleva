@@ -11,7 +11,7 @@ namespace ElevaTest.entity
         public virtual int id_escola { get; set; }
         public virtual int nome_escola { get; set; }
         public virtual int telefone { get; set; }
-        public virtual int endereço { get; set; }
+        public virtual int endereco { get; set; }
 
 
     }
