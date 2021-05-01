@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -21,9 +21,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="NHibernate" Version="5.3.8" />
     <PackageReference Include="Npgsql" Version="5.0.4" />
     <PackageReference Include="Npgsql.Json.NET" Version="5.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Infra\Turma\Repositorio\" />
   </ItemGroup>
 
 </Project>

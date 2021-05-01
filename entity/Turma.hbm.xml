@@ -2,7 +2,7 @@
 <hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
   assembly="ElevaTest"
   namespace="ElevaTest.entity">
-	<class name="Turma">
+	<class name="TurmaEntity">
 		<id name="id_turma">
 			<generator class="identity" />
 		</id>

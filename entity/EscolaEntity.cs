@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ElevaTest.entity
 {
-    public class Escola
+    public class EscolaEntity
     {
         public virtual int id_escola { get; set; }
-        public virtual int nome_escola { get; set; }
-        public virtual int telefone { get; set; }
-        public virtual int endereco { get; set; }
+        public virtual string nome_escola { get; set; }
+        public virtual string telefone { get; set; }
+        public virtual string endereco { get; set; }
 
 
     }
